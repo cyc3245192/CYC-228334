@@ -1,0 +1,20 @@
+git的命名帮助文档路径：https://git-scm.com/book/en/v2/Git-Basics-Tagging
+
+忽略文件
+$ cat .gitignore
+*.[oa]
+*~
+git -status -s 查询文件状态
+git diff 对比文件差异
+git commit 提交到本地库
+git rm 删除文件
+git mv 移动文件，或者重命名文件
+git log 查询提交历史
+git commit --amend 撤销第一次的提交，第二提交覆盖第一次的提交
+git reset HEAD   <file> 还原已经add的文件 
+git checkout -- <file>... 取消修改已修改的文件
+git remote -v  查询远程库的url
+git fetch <remote> 拉取远程库的数据
+git push <remote> <branch>  推送数据到远程库 ：git push origin master 
+git remote show origin 查询远程库的文件信息
+
